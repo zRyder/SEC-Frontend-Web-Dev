@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="test.css" rel="stylesheet">
+<title>Home</title>
+<script src="testscript.js"></script>
+	
+</head>
+
+<body onResize="forceHideHamburger(), makeBodyColumn()">
+	<div class = "header">
+	  <div id = "nav_header">
+		  <img src="images/logo.png" alt="Logo Here" style="max-height: 80%; margin-left: 10%; margin-top: 8px">
+		</div>
+		
+	  <div id = "nav_bar">
+			<nav>
+				<div id = "nav_container">
+					<a href="index.html" style="display: block; text-decoration: none;"><div class="nav_elements" style="width:80px">Home</div></a>
+					<div class="nav_elements" style="width:110px">Contact</div>
+					<a href="https://www.github.com/zRyder" style="display: block; text-decoration: none;"><div class="nav_elements" style="width:100px; cursor: pointer">GitHub</div></a>
+					<div class="nav_elements" style="width:220px">Accomplishments</div>
+				</div>
+			</nav>
+		</div>
+	
+		
+		<div id="hamburger_menu" onClick="showHamburger()">
+				<h1 style="margin-top: 13px">&#9776;</h1>
+		</div>
+	</div> <!--End header-->
+	
+	<div id="hamburger_container">
+		<div class="hamburger_elements" style="width:100%">Home</div>
+		<div class="hamburger_elements" style="width:100%">Contact</div>
+		<a href="https://www.github.com/zRyder" style="display: block; text-decoration: none;"><div class="hamburger_elements" style="width:100%">GitHub</div></a>
+		<div class="hamburger_elements" style="width:100%">Accomplishments</div>
+	</div>
+	
+	<div id = "container">
+		<div class="big_info_block" id="big_info_block01_JS">
+			<div class="info_text_block">
+				<h1 class="info_text">About Me</h1>
+				<p class="info_text" style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      	</div>
+			<div class="info_image_block">
+				<img src="images/reference_image.png" style="max-width: 100%;" alt="Image Here">
+			</div>
+		</div>
+		
+		<div class="big_info_block" id="big_info_block02_JS">
+		  	<div class="info_image_block">
+				<img src="images/reference_image.png" style="max-width: 100%" alt="Image Here">
+			</div>
+			<div class="info_text_block">
+				<h1 class="info_text">Title block</h1>
+				<p class="info_text" style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	      	</div>
+		</div>
+	</div>
+</body>
+</html>
